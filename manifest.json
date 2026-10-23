@@ -1,0 +1,23 @@
+{
+  "format_version": 1,
+  "id": "map-warp",
+  "name": "Map warp",
+  "version": "0.1.0",
+  "game_id": "wwhd",
+  "kind": "guest",
+  "guest": {
+    "api_version": 1,
+    "elf": "mod.elf"
+  },
+  "author": "ZeldaWWHDRecomp contributors",
+  "description": "Hold ZL+ZR and press Minus for a list of Great Sea islands and dungeons; A warps there.",
+  "minimum_manager_version": "1.5.0",
+  "experimental": true,
+  "setup": [
+    {
+      "id": "build",
+      "type": "build_guest_mod",
+      "title": "Build map warp for this installation"
+    }
+  ]
+}
